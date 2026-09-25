@@ -1,0 +1,18 @@
+[
+    {
+        "id": "proyecto-01",
+        "nombre": "Sistema de Seguridad Inteligente",
+        "descripcion": "Un prototipo automatizado para la protección de espacios utilizando sensores de movimiento y alertas en tiempo real.",
+        "tecnologias": ["Arduino", "Sensores", "Actuadores", "Tinkercad"],
+        "imagen": "assets/images/robot.webp",
+        "enlace": "proyectos/sistema-seguridad.html"
+    },
+    {
+        "id": "proyecto-02",
+        "nombre": "Robot Seguidor de Línea",
+        "descripcion": "Un vehículo autónomo programado en C++ capaz de recorrer circuitos a alta velocidad detectando contrastes de color.",
+        "tecnologias": ["Arduino", "C++", "Sensores IR", "Motores"],
+        "imagen": "assets/images/carro.webp",
+        "enlace": "proyectos/seguidor-linea.html"
+    }
+]

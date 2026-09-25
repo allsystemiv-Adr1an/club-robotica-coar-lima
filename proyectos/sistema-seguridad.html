@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Inteligente de Seguridad | Club de Robótica COAR Lima</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .project-detail-section { padding: 140px 0 80px 0; }
+        .back-link { color: var(--accent); text-decoration: none; font-weight: 600; display: inline-block; margin-bottom: 2rem; }
+        .project-header-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 4rem; margin-bottom: 4rem; }
+        .tech-box { background: var(--bg-card); border: 1px solid var(--border-color); padding: 2rem; border-radius: 8px; }
+        .tech-box ul { list-style: none; padding: 0; margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+        .tech-box ul li::before { content: "⚡ "; color: var(--accent); }
+        .stem-process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
+        .process-step-card { background: var(--bg-card); border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 6px; }
+        .process-step-card h4 { color: var(--accent); margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="container navbar">
+            <div class="logo">🤖 Club Robótica COAR Lima</div>
+            <ul class="nav-links">
+                <li><a href="../index.html#inicio">Regresar al Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container project-detail-section">
+        <a href="../index.html#proyectos" class="back-link">← Volver a Proyectos</a>
+        
+        <div class="project-header-grid">
+            <div>
+                <span class="badge">PROYECTO DESTACADO</span>
+                <h1 style="font-size: 2.8rem; margin-bottom: 1.5rem;">Sistema de Seguridad Inteligente</h1>
+                <p class="hero-desc">Un prototipo automatizado para la protección de espacios utilizando sensores de movimiento y alertas en tiempo real.</p>
+                
+                <h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">01 / El Desafío (El Problema)</h3>
+                <p style="color: var(--text-muted);">¿Cómo resguardar áreas restringidas de forma económica y eficiente dentro de nuestra institución utilizando tecnología accesible?</p>
+                
+                <h3 style="margin-top: 2rem; margin-bottom: 0.5rem;">02 / Nuestra Idea (La Solución)</h3>
+                <p style="color: var(--text-muted);">Los estudiantes diseñaron un circuito modular que procesa lecturas ultrasónicas e infrarrojas para activar alarmas visuales y sonoras de inmediato al detectar intrusos.</p>
+            </div>
+            
+            <div class="tech-box">
+                <h3>Tecnología Utilizada</h3>
+                <ul>
+                    <li>Arduino Uno / IDE</li>
+                    <li>Sensores de Movimiento PIR</li>
+                    <li>Actuadores (Zumbadores y LEDs)</li>
+                    <li>Simulación en Tinkercad</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 4rem 0;">
+
+        <h3>03 / Proceso de Desarrollo (Metodología)</h3>
+        <div class="stem-process-grid">
+            <div class="process-step-card">
+                <h4>01. Definir e Idear</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Lluvia de ideas y dibujo del diagrama de conexiones eléctricas.</p>
+            </div>
+            <div class="process-step-card">
+                <h4>02. Prototipar</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Programación de la lógica en C++ y ensamble de componentes en protoboard.</p>
+            </div>
+            <div class="process-step-card">
+                <h4>03. Probar y Mejorar</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Calibración de los rangos de distancia del sensor para evitar falsas alarmas.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
