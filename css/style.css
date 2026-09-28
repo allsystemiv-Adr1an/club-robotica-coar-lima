@@ -750,15 +750,19 @@ h1 {
     .masonry-gallery { column-count: 1; }
 }
 /* DISEÑO PARA LA IMAGEN PRINCIPAL DEL HERO */
+/* DISEÑO PARA LA IMAGEN PRINCIPAL DEL HERO */
 .hero-img-real {
     width: 100%;
-    height: 100%;
-    max-height: 400px;
-    object-fit: cover; /* Centra y recorta la foto perfectamente sin deformarla */
+    height: auto;
+    max-height: 450px;
+    object-fit: contain; /* Muestra la imagen COMPLETA sin recortar nada */
     border-radius: 8px;
     border: 1px solid var(--border-color);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto;
 }
+
 /* ESTILOS PARA TARJETAS DE VIDEO OPTIMIZADAS */
 .video-card-link {
     background-color: var(--bg-card);
